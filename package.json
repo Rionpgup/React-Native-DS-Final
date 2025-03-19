@@ -1,0 +1,38 @@
+{
+  "name": "react-native-ds-final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rionpgup/React-Native-DS-Final.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Rionpgup/React-Native-DS-Final/issues"
+  },
+  "homepage": "https://github.com/Rionpgup/React-Native-DS-Final#readme",
+  "dependencies": {
+    "expo": "^52.0.39",
+    "expo-status-bar": "~2.0.1",
+    "react": "18.3.1",
+    "react-native": "0.76.7",
+    "react-native-web": "~0.19.13",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  }
+}

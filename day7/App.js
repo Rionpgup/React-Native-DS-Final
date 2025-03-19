@@ -3,6 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import { createAppContainer } from 'react-navigation-stack';
 import { createStackNavigator } from 'react-navigation'
 import MenuScreen from './screens/MenuScreen';
+import { NavigationContainer } from '@react-navigation/native';
 
 export default function App() {
   return (
@@ -34,3 +35,20 @@ const styles = StyleSheet.create({
 });
 
 export default createAppContainer(navigator);
+
+
+
+const Stack = createStackNavigator();
+
+export default function App();
+return(
+  <NavigationContainer
+     <Stack.Navigator initialRouteName="Name")
+    <Stack.Screen name= "Menu" component={MenuScreen} options={{title:'App'}}/>
+    <Stack.Screen name= "Exercise" component={MenuScreen} options={{title:'App'}}/>
+    <Stack.Screen name= "Button" component={MenuScreen} options={{title:'App'}}/>
+    <Stack.Screen name= "List" component={MenuScreen} options={{title:'App'}}/>
+</Stack.Navigator>
+</NavigatorContainer>
+)
+}

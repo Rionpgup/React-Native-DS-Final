@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "react-native-ds-final",
+    "slug": "react-native-ds-final",
+    "version": "1.0.0",
+    "description": "",
+    "sdkVersion": "52.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "android": {
+      "package": "rion.js"
+    }
+  }
+}
