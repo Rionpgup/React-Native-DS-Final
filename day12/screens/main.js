@@ -1,12 +1,12 @@
 import react,{useEffect, useState} from "react"
-import {View, Text, FlatList} from 'react-native';
+import {View, Text,FlatList} from 'react-native';
 
 const Main =()=>{
     const [posts, setPosts]=useState([])
     const APICALL = async()=>{
-      const pergjigjja= await fetch("https://jsonplaceholder.typicode.com/posts")
-     const data = await pergjigjja.json()
-    setPosts(data)
+       const pergjigja = await fetch("https://jsonplaceholder.typicode.com/posts")
+         const data = await pergjigja.json()
+            setPosts(data)
     }
     useEffect(()=>{
         APICALL()
@@ -19,14 +19,14 @@ const Main =()=>{
         renderItem={({item})=>{
             return ( <View>
                <Text>{item.title}</Text>
-               <Text>{item.body}</Text>         
+               <Text>{item.body}</Text>
             </View>
-            )  
-    }}
-    
+            )
+        }}
+
 />
 
     )
 
 }
-export default Main
+export default Main;
